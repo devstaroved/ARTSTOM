@@ -282,7 +282,7 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 560px;
+    /* width: 560px; */
     
     color: #292929;
     font-family: Montserrat, var(--default-font-family);
@@ -321,7 +321,7 @@ a {
     display: flex;
         align-items: flex-start;
         justify-content: center;
-        width: 599px;
+        /* width: 599px; */
         flex-direction: column;
 }
 
@@ -668,6 +668,10 @@ display: flex
 .services__swiper_wrapper{
     /* height: 422px!important; */
 }
+
+.doctors-swiper .swiper-wrapper{
+     height: 422px!important;  
+}
 .services__swiper_slide{
     height: 279px!important;
 }
@@ -886,12 +890,12 @@ display: flex
 }
 
 .doctor-card:hover {
-    transform: translateY(-10px);
+    /* transform: translateY(-10px); */
 }
 
 .doctor-card__image {
     width: 100%;
- 
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -899,6 +903,7 @@ display: flex
     width: 290px;
     height: 328px;
     object-fit: cover;
+    
 }
 
 .doctor-card__name {
@@ -958,7 +963,7 @@ display: flex
 }
 
 .price__accordion {
-    max-height: 600px;
+    max-height: 400px;
     overflow-y: auto;
     padding-right: 20px;
 }
@@ -1076,7 +1081,7 @@ display: flex
 
 
   .price__accordion .accordion__item:last-child .accordion__header {
-    background: linear-gradient(to right, #B4D3FF 0%, rgb(180 211 255 / 50%) 100%); /* Градиент от #B4D3FF к прозрачному */
+    /* background: linear-gradient(to right, #B4D3FF 0%, rgb(180 211 255 / 50%) 100%); Градиент от #B4D3FF к прозрачному */
      
      
     
@@ -1109,9 +1114,10 @@ display: flex
 
 /* Reviews Section Styles */
 .reviews__container {
-    padding: 0 130px;
-    margin-bottom: 100px;
+    padding: 70px 130px;
+    /* margin-bottom: 100px; */
     position: relative;
+    background: #F5F5F5;
 }
 
 .reviews__wrapper {
@@ -1167,7 +1173,7 @@ display: flex
     padding: 30px;
     height: 100%;
     width: 100%;
-    box-shadow: 0 4px 22.2px 0 rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 4px 22.2px 0 rgba(0, 0, 0, 0.15); */
     display: flex;
     flex-direction: column;
 }
@@ -1180,7 +1186,7 @@ display: flex
 
 .services-swiper .swiper-wrapper {
     /* gap: 53.79px; */
-    height: 363px!important
+    height: 400px!important
 }
 
 .review-card__name {
