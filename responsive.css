@@ -364,10 +364,11 @@
         padding-left: 20px;
     }
     .price__subtitle{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .doctors__subtitle {
         width: 100%;
+        margin-bottom: 30px;
     }
 
     /* Hide scrollbar for price accordion */
@@ -553,7 +554,7 @@
         color: #fff;
      }
      .services-swiper .swiper-wrapper{
-        height: 360px !important;
+        height: 385px !important;
      }
 
     .service-card__button{
@@ -608,9 +609,7 @@
         overflow-wrap: break-word;
     }
 
-    .services__container {
-        margin-bottom: 20px;
-    }
+  
 
    .services__icon_left, .services__icon_right{
     display: none;
@@ -618,10 +617,27 @@
   .reviews__title{
     padding-top: 70px;
   }
-  .reviews__container{
-    margin-bottom: 50px;
-  }
+  .services__container {
+    margin-bottom: 38px;
+}
   .doctors__container{
-    margin-bottom: 62px;
+    margin-bottom: 38px;
   }
+  .price__container{
+    margin-bottom: 70px;
+  }
+  .reviews__subtitle {
+ 
+    margin-bottom: 26px;
+}
+.callback__container {
+    padding: 50px 20px;
+}
+.reviews__container {
+    
+    min-height: 680px;
+}
+.accordion__item{
+    box-shadow: none;
+}
 }
