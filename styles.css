@@ -876,10 +876,22 @@ display: flex
 .doctors__swiper_wrapper {
     height: auto !important;
     padding-bottom: 40px;
+    gap: 10px;
 }
 
 .doctors__swiper_slide {
     height: auto !important;
+    
+    margin-right: 10px!important;
+}
+@media (min-width: 998px) {
+    .doctors__swiper_slide{
+        width: 290px!important;
+    }
+}
+
+.doctors__swiper_slide:last-child {
+    margin-right: 0;
 }
 
 .doctor-card {
@@ -1505,3 +1517,18 @@ display: flex
     }
 }
  
+
+.mobile-menu{
+    display: none;
+}
+
+ 
+.mobile__menu__item_button_language{
+    display: none;
+}
+.burger-menu {
+    display: none;
+}
+
+
+
