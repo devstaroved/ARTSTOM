@@ -344,7 +344,12 @@
         font-weight: 400;
         line-height: 48.76px;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .services__subtitle {
+        margin-bottom: 30px;
     }
 
     .services__subtitle,
@@ -356,10 +361,10 @@
         font-weight: 400;
         line-height: 20.723px;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 20px;
     }
     .price__subtitle{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .doctors__subtitle {
         width: 100%;
@@ -534,9 +539,27 @@
         height: 100%;
         object-fit: contain;
     }
+    .service-card  {
+        background: #7489A2;
+        height: 304px !important;
+        
+    }
+    .service-card:hover {
+        background: #7489A2;
+        height: 304px !important;
+    }
+
+     .service-card__title,  .service-card__description{
+        color: #fff;
+     }
+     .services-swiper .swiper-wrapper{
+        height: 360px !important;
+     }
 
     .service-card__button{
         padding: 15px 17px;
+        display: inline-block;
+        margin-top: 0px;
     }
 
     .doctor-card {
@@ -589,7 +612,16 @@
         margin-bottom: 20px;
     }
 
-   
-    
-
+   .services__icon_left, .services__icon_right{
+    display: none;
+   }
+  .reviews__title{
+    padding-top: 70px;
+  }
+  .reviews__container{
+    margin-bottom: 50px;
+  }
+  .doctors__container{
+    margin-bottom: 62px;
+  }
 }
