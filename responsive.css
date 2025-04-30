@@ -640,4 +640,19 @@
 .accordion__item{
     box-shadow: none;
 }
+
+.wapper__button {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+ 
+.link__button {
+    width: 235px;
+    height: 47px;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 0 auto;
+}
+
 }
